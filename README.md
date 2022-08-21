@@ -9,7 +9,7 @@
 6. yup resolver is being used to handle yup with react-hook-form library. It acts as a middleware.
     > npm i @hookform/resolvers
 7. Why we should we go with [use form hook Controller] instead of [register]
-    > ### `register`: We can use register when we work with simple html controls example: input box etc. It won't work with multi select control and many other advanced controls when we work with third party html controls. It creates problem when we work with third party tools for making controls example: Material UI.
+    > register: We can use register when we work with simple html controls example: input box etc. It won't work with multi select control and many other advanced controls when we work with third party html controls. It creates problem when we work with third party tools for making controls example: Material UI.
     > use form hook Controller: It's very easy to use all the third party controls with [use form hook Controller].
 7. Shared HTML conrtols:
     > components/controls/CheckBox.tsx, components/controls/DropDownList.tsx, components/controls/Input.tsx, components/controls/RadioGroup.tsx
